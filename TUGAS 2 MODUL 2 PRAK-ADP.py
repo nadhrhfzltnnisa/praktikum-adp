@@ -15,7 +15,7 @@ print()
 
 mau_pesan = input("Apakah anda ingin memesan makanan (y/n) ? ").lower()
 
-if mau_pesan != "y" or mau_pesan != "n" :
+if mau_pesan != "y" and mau_pesan != "n" :
 	print("Note : ketik huruf Y, y, N, atau n saja. Y/y = yes dan N/n = no !")
 	mau_pesan = input("Apakah anda ingin memesan makanan (y/n) ? ").lower()
 
