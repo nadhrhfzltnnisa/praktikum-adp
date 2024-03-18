@@ -39,11 +39,11 @@ x = int(input("Berapakah jarak dari rumah anda ke restoran (meter) ? "))
 
 if (x<0) :
 	print("Jarak tidak valid")
-if (x < 500) :
+elif (x < 500) :
 	biaya = 0
-if (500 <= x <= 1500) :
+elif (500 <= x <= 1500) :
 	biaya = 10000
-if (x > 1500) :
+else :
 	biaya = 20000
 ongkir = biaya
 print("total biaya ongkir anda adalah : Rp " + str(ongkir))
