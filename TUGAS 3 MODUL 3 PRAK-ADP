@@ -1,5 +1,5 @@
 print ("| Program Perulangan Kelipatan 4 = DOR dengan Total Angka 80 |")
-print("==============================================================")
+print ("==============================================================")
 print()
 
 for i in range (1,81) :
