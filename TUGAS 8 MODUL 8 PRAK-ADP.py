@@ -1,5 +1,6 @@
-print(" Nama : Naadhirah Fazilatun Nisa")
-print(" NIM  : 2310433021")
+print(" Nama  : Naadhirah Fazilatun Nisa")
+print(" NIM   : 2310433021")
+print(" Shift : 3")
 print()
 print(" Program Pendataan Film")
 print()
