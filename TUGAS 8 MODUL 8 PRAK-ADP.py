@@ -79,7 +79,7 @@ def edit(favfilms) :
 def show(favfilms) :
     if favfilms :
         for judul, rincian in favfilms.items() :
-            print("=============================")
+            print(" +==========================================+")
             print()
             print(f" Judul : {judul}")
             print(f" Writer : {rincian['Penulis']}")
@@ -87,20 +87,21 @@ def show(favfilms) :
             print(f" Released year : {rincian['Tahun rilis']}")
             print(f" Genre : {rincian['Genre']}")
             print()
-            print("=============================")
+            print(" +==========================================+")
     else:
         print(" Film belum berhasil tersimpan!")
 
 def main() :
     favfilms = input_films()
     while True :
-        print("\n +---------------------+")
-        print(" | Menu - menu : |")
-        print(" | [1]. Input Film |")
+        print("\n +------------------+")
+        print(" | Menu - menu :    |")
+        print(" +------------------+")
+        print(" | [1]. Input Film  |")
         print(" | [2]. Delete Film |")
-        print(" | [3]. Edit Film|")
-        print(" | [4]. Show Film|")
-        print(" | [5]. Exit |")
+        print(" | [3]. Edit Film   |")
+        print(" | [4]. Show Film   |")
+        print(" | [5]. Exit        |")
         print(" +__________________+")
         print()
 
